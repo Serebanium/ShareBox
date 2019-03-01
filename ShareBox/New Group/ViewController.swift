@@ -72,7 +72,8 @@ class ViewController: UIViewController {
         mailComposer.mailComposeDelegate = self
         
         mailComposer.setSubject("ShareBox")
-        mailComposer.setMessageBody("Отправлено приложением ShareBox", isHTML: false)
+        mailComposer.setMessageBody("", isHTML: true)
+        mailComposer.addAttachmentData((imageView.image?.jpegData(compressionQuality: 1))!, mimeType: "image/jpeg", fileName: "")
         present(mailComposer, animated: true, completion: nil)
     }
     
@@ -80,7 +81,7 @@ class ViewController: UIViewController {
         guard MFMessageComposeViewController.canSendText() else { return }
         let messageComposer = MFMessageComposeViewController()
         messageComposer.messageComposeDelegate = self
-        
+        messageComposer.addAttachmentData((imageView.image?.jpegData(compressionQuality: 1))!, typeIdentifier: "public.data", filename: " .jpg")
         present(messageComposer, animated: true, completion: nil)
     }
     
