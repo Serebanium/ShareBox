@@ -12,6 +12,10 @@
 		3E1A5CA22227FCA200AA39C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A5CA02227FCA200AA39C3 /* Main.storyboard */; };
 		3E1A5CA42227FCB500AA39C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A5CA32227FCB500AA39C3 /* Assets.xcassets */; };
 		3E1A5CA72227FCB500AA39C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A5CA52227FCB500AA39C3 /* LaunchScreen.storyboard */; };
+		3ECBE9E322290DC4002CF876 /* ViewController+UIImagePickerControllerDeligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE9E222290DC4002CF876 /* ViewController+UIImagePickerControllerDeligate.swift */; };
+		3ECBE9E522290E58002CF876 /* ViewController+UINavigationControllerDeligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE9E422290E58002CF876 /* ViewController+UINavigationControllerDeligate.swift */; };
+		3ECBE9E722291BAE002CF876 /* ViewController+MFMailComposeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE9E622291BAE002CF876 /* ViewController+MFMailComposeViewControllerDelegate.swift */; };
+		3ECBE9E922291FD2002CF876 /* ViewController+MFMessageComposeViewControllerDeligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE9E822291FD2002CF876 /* ViewController+MFMessageComposeViewControllerDeligate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3E1A5CA32227FCB500AA39C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1A5CA62227FCB500AA39C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E1A5CA82227FCB500AA39C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECBE9E222290DC4002CF876 /* ViewController+UIImagePickerControllerDeligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UIImagePickerControllerDeligate.swift"; sourceTree = "<group>"; };
+		3ECBE9E422290E58002CF876 /* ViewController+UINavigationControllerDeligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UINavigationControllerDeligate.swift"; sourceTree = "<group>"; };
+		3ECBE9E622291BAE002CF876 /* ViewController+MFMailComposeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MFMailComposeViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		3ECBE9E822291FD2002CF876 /* ViewController+MFMessageComposeViewControllerDeligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MFMessageComposeViewControllerDeligate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				3E1A5C9C2227FCA200AA39C3 /* AppDelegate.swift */,
-				3E1A5C9E2227FCA200AA39C3 /* ViewController.swift */,
+				3ECBE9E122290D84002CF876 /* New Group */,
 				3E1A5CA02227FCA200AA39C3 /* Main.storyboard */,
 				3E1A5CA32227FCB500AA39C3 /* Assets.xcassets */,
 				3E1A5CA52227FCB500AA39C3 /* LaunchScreen.storyboard */,
 				3E1A5CA82227FCB500AA39C3 /* Info.plist */,
 			);
 			path = ShareBox;
+			sourceTree = "<group>";
+		};
+		3ECBE9E122290D84002CF876 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3E1A5C9E2227FCA200AA39C3 /* ViewController.swift */,
+				3ECBE9E222290DC4002CF876 /* ViewController+UIImagePickerControllerDeligate.swift */,
+				3ECBE9E422290E58002CF876 /* ViewController+UINavigationControllerDeligate.swift */,
+				3ECBE9E622291BAE002CF876 /* ViewController+MFMailComposeViewControllerDelegate.swift */,
+				3ECBE9E822291FD2002CF876 /* ViewController+MFMessageComposeViewControllerDeligate.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECBE9E922291FD2002CF876 /* ViewController+MFMessageComposeViewControllerDeligate.swift in Sources */,
 				3E1A5C9F2227FCA200AA39C3 /* ViewController.swift in Sources */,
+				3ECBE9E522290E58002CF876 /* ViewController+UINavigationControllerDeligate.swift in Sources */,
+				3ECBE9E722291BAE002CF876 /* ViewController+MFMailComposeViewControllerDelegate.swift in Sources */,
 				3E1A5C9D2227FCA200AA39C3 /* AppDelegate.swift in Sources */,
+				3ECBE9E322290DC4002CF876 /* ViewController+UIImagePickerControllerDeligate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

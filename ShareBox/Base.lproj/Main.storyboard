@@ -31,31 +31,38 @@
                                                 <rect key="frame" x="10" y="10" width="300" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2B-YR-pKb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="69" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="53.5" height="30"/>
                                                         <state key="normal" title="Share"/>
                                                         <connections>
                                                             <action selector="buttonPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pjd-wX-820"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlW-jW-tg3">
-                                                        <rect key="frame" x="77" y="0.0" width="69" height="30"/>
+                                                        <rect key="frame" x="61.5" y="0.0" width="53.5" height="30"/>
                                                         <state key="normal" title="Safari"/>
                                                         <connections>
                                                             <action selector="buttonPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIv-nR-Lpk"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3t-sZ-mGc">
-                                                        <rect key="frame" x="154" y="0.0" width="69" height="30"/>
+                                                        <rect key="frame" x="123" y="0.0" width="54" height="30"/>
                                                         <state key="normal" title="Camera"/>
                                                         <connections>
                                                             <action selector="buttonPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJJ-Yl-kuP"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWe-d8-jqY">
-                                                        <rect key="frame" x="231" y="0.0" width="69" height="30"/>
+                                                        <rect key="frame" x="185" y="0.0" width="53.5" height="30"/>
                                                         <state key="normal" title="E-mail"/>
                                                         <connections>
                                                             <action selector="buttonPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YB5-hg-6A4"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcr-Na-2BG">
+                                                        <rect key="frame" x="246.5" y="0.0" width="53.5" height="30"/>
+                                                        <state key="normal" title="SMS"/>
+                                                        <connections>
+                                                            <action selector="buttonPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v0k-nf-x9u"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
